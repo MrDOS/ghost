@@ -1,0 +1,8 @@
+name: Ghost
+main: ca.seenet.seecraft.ghost.GhostPlugin
+version: 1.0.0-dev
+
+commands:
+    ghosts:
+        description: Ghost/unghost a player.
+        usage: /<command> <list | add <playername> | remove <playername>
